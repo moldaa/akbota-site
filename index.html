@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="" />
+    <meta
+      name="author"
+      content="Mark Otto, Jacob Thornton, and Bootstrap contributors"
+    />
+    <meta name="generator" content="Hugo 0.84.0" />
+    <title>Строительные сетки</title>
+
+    <link
+      rel="canonical"
+      href="https://getbootstrap.com/docs/5.0/examples/carousel/"
+    />
+
+    <!-- Bootstrap core CSS -->
+    <link href="src/css/bootstrap.min.css" rel="stylesheet" />
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
+
+    <!-- Custom styles for this template -->
+    <link href="src/css/carousel.css" rel="stylesheet" />
+  </head>
+  <body>
+    <header id="main">
+      <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#main">Логотип</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarCollapse"
+            aria-controls="navbarCollapse"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav me-auto mb-2 mb-md-0">
+              <li class="nav-item">
+                <a class="nav-link" href="#about">О нас</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#offer">Что мы предлашаем</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#price">Цены</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contacts">Контакты</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="tel:+77473926383"
+                  >+7 (747) 392 63 83</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  href="https://api.whatsapp.com/send?phone=77473926383&amp;text="
+                  target="_blank"
+                  >WhatsApp</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#myCarousel"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#myCarousel"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#myCarousel"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              class="bd-placeholder-img"
+              width="100%"
+              height="100%"
+              src="src/images/bg/bg-1.jpg"
+            />
+
+            <div class="container">
+              <div class="carousel-caption text-start">
+                <h1>Сетки армированные</h1>
+                <p>
+                  Сетки армированные для строительных работ по выгодной цене
+                </p>
+                <p>
+                  <a
+                    class="btn btn-lg btn-primary"
+                    href="https://api.whatsapp.com/send?phone=77473926383&amp;text="
+                    target="_blank"
+                    >Заказать</a
+                  >
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              class="bd-placeholder-img"
+              width="100%"
+              height="100%"
+              src="src/images/bg/bg-2.jpg"
+            />
+
+            <div class="container">
+              <div class="carousel-caption">
+                <h1>Прочный материал</h1>
+                <p>
+                  Наши сетки делуются из высокопрочных материалов
+                  профессионаломи своего дела
+                </p>
+                <p>
+                  <a
+                    class="btn btn-lg btn-primary"
+                    href="https://api.whatsapp.com/send?phone=77473926383&amp;text="
+                    target="_blank"
+                    >Побробнее</a
+                  >
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              class="bd-placeholder-img"
+              width="100%"
+              height="100%"
+              src="src/images/bg/bg-3.jpg"
+            />
+
+            <div class="container">
+              <div class="carousel-caption text-end">
+                <h1>Выгодные скидка</h1>
+                <p>У нас действует огромные скидки для постоянных клиентов</p>
+                <p>
+                  <a
+                    class="btn btn-lg btn-primary"
+                    href="https://api.whatsapp.com/send?phone=77473926383&amp;text="
+                    target="_blank"
+                    >Купить</a
+                  >
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#myCarousel"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#myCarousel"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+      <!-- Marketing messaging and featurettes
+  ================================================== -->
+      <!-- Wrap the rest of the page in another container to center all the content. -->
+
+      <div class="container marketing">
+        <hr class="featurette-divider" id="offer" />
+
+        <div class="row featurette">
+          <div class="col-md-7">
+            <h2 class="featurette-heading">
+              Армированная сетка
+              <span class="text-muted">Как производится</span>
+            </h2>
+            <p class="lead">
+              Арматурная (кладочная) сварная сетка представляет собой прутья,
+              соединенные под прямым углом при помощи точечной сварки. Сетка
+              кладочная используется в строительстве для кладки дорожного
+              покрытия и сооружении кирпичных и железобетонных зданий, ее можно
+              применить для армирования бетона, штукатурных работ, упрочнения
+              строения и равномерного распределения тяжести конструкции, стяжки
+              полов и кирпичной кладки. Применение кладочной сетки в возведении
+              бетонных или кирпичных конструкций улучшает их свойства, позволяет
+              снизить пластические деформации бетона или раствора от пагубного
+              воздействия влаги, механических нагрузок или перепадов температур.
+            </p>
+            <p>
+              <a
+                class="btn btn-primary"
+                href="https://api.whatsapp.com/send?phone=77473926383&amp;text="
+                target="_blank"
+                >Заказать &raquo;</a
+              >
+            </p>
+          </div>
+          <div class="col-md-5">
+            <img
+              class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto"
+              width="500"
+              height="500"
+              src="src/images/image-1.jpeg"
+            />
+          </div>
+        </div>
+
+        <hr class="featurette-divider" />
+
+        <div class="row featurette">
+          <div class="col-md-7 order-md-2">
+            <h2 class="featurette-heading">
+              Армированная сетка
+              <span class="text-muted">Где приминяеться</span>
+            </h2>
+            <p class="lead">
+              Сетка кладочная рулонная также используется при дорожных работах,
+              заливке фундамента и перекрытий и при изготовлении клеток для
+              звероводства и птицеводства, для укладки кафеля. Без такого
+              материала, как сетка кладочная не обходится ни одно строительство.
+              Её главная функция связать в единое целое все материалы
+              строительных работ Ее используют на каждом этапе строительства, и
+              она непосредственно влияет на прочность зданий. Достигается это
+              благодаря увеличению сцепки бетона с сеткой и основой. Также она
+              помогает избежать деформации стен при усадке фундамента, исключая
+              появление трещин.
+            </p>
+            <p>
+              <a
+                class="btn btn-primary"
+                href="https://api.whatsapp.com/send?phone=77473926383&amp;text="
+                target="_blank"
+                >Заказать &raquo;</a
+              >
+            </p>
+          </div>
+          <div class="col-md-5 order-md-1">
+            <img
+              class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto"
+              width="500"
+              height="500"
+              src="src/images/image-2.jpeg"
+            />
+          </div>
+        </div>
+        <hr class="featurette-divider" id="price" />
+        <div class="row">
+          <div class="col-lg-4">
+            <img
+              class="bd-placeholder-img rounded-circle"
+              width="140"
+              height="140"
+              xmlns="http://www.w3.org/2000/svg"
+              role="img"
+              aria-label="Placeholder: 140x140"
+              preserveAspectRatio="xMidYMid slice"
+              focusable="false"
+              src="src/images/heading/image.jpg"
+            />
+
+            <h2>100 на 100</h2>
+            <p>
+              Размер ячейки: 100x100<br />
+              Толшина вариаций: 2-5
+            </p>
+            <p>
+              <a
+                class="btn btn-primary"
+                href="https://api.whatsapp.com/send?phone=77473926383&amp;text="
+                target="_blank"
+                >Заказать &raquo;</a
+              >
+            </p>
+          </div>
+          <!-- /.col-lg-4 -->
+          <div class="col-lg-4">
+            <img
+              class="bd-placeholder-img rounded-circle"
+              width="140"
+              height="140"
+              xmlns="http://www.w3.org/2000/svg"
+              role="img"
+              aria-label="Placeholder: 140x140"
+              preserveAspectRatio="xMidYMid slice"
+              focusable="false"
+              src="src/images/heading/image.jpg"
+            />
+
+            <h2>150 на 150</h2>
+            <p>
+              Размер ячейки: 150x150<br />
+              Толшина вариаций: 2-5
+            </p>
+            <p>
+              <a
+                class="btn btn-primary"
+                href="https://api.whatsapp.com/send?phone=77473926383&amp;text="
+                target="_blank"
+                >Заказать &raquo;</a
+              >
+            </p>
+          </div>
+          <!-- /.col-lg-4 -->
+          <div class="col-lg-4">
+            <img
+              class="bd-placeholder-img rounded-circle"
+              width="140"
+              height="140"
+              xmlns="http://www.w3.org/2000/svg"
+              role="img"
+              aria-label="Placeholder: 140x140"
+              preserveAspectRatio="xMidYMid slice"
+              focusable="false"
+              src="src/images/heading/image.jpg"
+            />
+
+            <h2>200 на 200</h2>
+            <p>
+              Размер ячейки: 200x200<br />
+              Толшина вариаций: 2-5
+            </p>
+            <p>
+              <a
+                class="btn btn-primary"
+                href="https://api.whatsapp.com/send?phone=77473926383&amp;text="
+                target="_blank"
+                >Заказать &raquo;</a
+              >
+            </p>
+          </div>
+          <!-- /.col-lg-4 -->
+        </div>
+        <hr class="featurette-divider" id="about" />
+
+        <!-- /END THE FEATURETTES -->
+      </div>
+      <!-- /.container -->
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="media-container-column title col-12 col-md-10">
+            <h2
+              class="align-left mbr-bold mbr-white pb-3 mbr-fonts-style display-2"
+            >
+              О компании
+            </h2>
+
+            <p class="mbr-text align-left mbr-white mbr-fonts-style display-7">
+              2022 год стал годом основания нашей компании Akbotasetka, наша
+              компания динамично развивается на рынке Казахстана в сфере
+              стройматериалов и строительстве, и мы создаем адекватную
+              конкуренцию старожилам этого бизнеса. Название нашей фирмы говорит
+              само за себя мы работаем чтобы возрождать Ваши дома.&nbsp;<br /><br />Наша
+              компания специализируется на изготовлении и реализации
+              металлоизделий. Для производства продукции используются
+              проверенные технологии и современное оборудование. Собственное
+              производство металлоизделий является гарантией высокого качества
+              продукции. Приобретение сетки сварной в нашей компании является
+              отличной возможностью приобрести необходимые материалы по
+              заводским ценам. Купить сетку от производителя — это экономически
+              выгодное решение, которое позволит снизить затраты на
+              строительство.
+            </p>
+            <div class="mbr-section-btn align-left py-4">
+              <a
+                class="btn btn-primary display-4"
+                href="https://api.whatsapp.com/send?phone=77473926383&amp;text="
+                onclick="gtag('event', 'what', {'event_category' : 'call', 'event_label' : 'mobile'});"
+                target="_blank"
+                >Задать вопрос</a
+              >
+            </div>
+          </div>
+        </div>
+        <hr class="featurette-divider" id="contacts" />
+      </div>
+      <div class="container">
+        <div class="row">
+          <!--Titles-->
+          <div class="title col-12">
+            <h2 class="align-left mbr-fonts-style display-2">Наши контакты</h2>
+          </div>
+          <!--Left-->
+          <div class="col-12 col-md-6">
+            <div class="left-block wrapper">
+              <div class="b b-adress">
+                <h5 class="align-left mbr-fonts-style m-0 display-5">Адрес:</h5>
+                <p class="mbr-text align-left mbr-fonts-style display-7">
+                  Республика Казахстан<br />город Тараз, Бурундайская 91
+                </p>
+              </div>
+              <div class="b b-phone">
+                <h5 class="align-left mbr-fonts-style m-0 display-5">
+                  Телефон:
+                </h5>
+                <p class="mbr-text align-left mbr-fonts-style display-7">
+                  <a href="tel:+77077545556">+7 (707) 754-55-56</a><br /><a
+                    href="tel:+77054077761"
+                    >+7 (705) 407-77-61</a
+                  ><br /><a href="tel:+77024204061">+7 (702) 420-40-61</a
+                  ><br /><a href="tel:+77272900046">+7 (727) 290-00-46</a>
+                  факс<br />
+                </p>
+              </div>
+              <div class="b b-mail">
+                <h5 class="align-left mbr-fonts-style m-0 display-5">
+                  E-mail:
+                </h5>
+                <p class="mbr-text align-left mbr-fonts-style display-7">
+                  <a href="mailto:Iprenaissance@mail.ru" class="text-black"
+                    >Iakbota@mail.ru</a
+                  >
+                </p>
+              </div>
+            </div>
+          </div>
+          <!--Right-->
+          <div class="col-12 col-md-6">
+            <div class="d-block w-100 h-100">
+              <iframe
+                frameborder="0"
+                style="border: 0; width: 100%; height: 100%"
+                src="https://yandex.ru/map-widget/v1/?um=constructor%3A3d41d8f13f04810e95b85edd835890d5803d435484368dea22b63f1405463286&amp;source=constructor"
+                allowfullscreen=""
+              ></iframe>
+            </div>
+          </div>
+        </div>
+        <hr class="featurette-divider" />
+      </div>
+
+      <!-- FOOTER -->
+      <footer class="container">
+        <p class="float-end"><a href="#">Back to top</a></p>
+        <p>
+          &copy; 2017–2022 Company, Inc. &middot;
+          <a href="#">Privacy</a> &middot; <a href="#">Terms</a>
+        </p>
+      </footer>
+    </main>
+
+    <script src="src/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
